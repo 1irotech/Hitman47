@@ -32,17 +32,17 @@ export default class command extends BaseCommand {
     private symbols = [
         new SlotSymbol('1', {
             display: '💸',
-            points: 1,
+            points: 5,
             weight: 100
         }),
         new SlotSymbol('2', {
             display: '💶',
-            points: 1,
+            points: 15,
             weight: 100
         }),
         new SlotSymbol('b', {
             display: '💰',
-            points: 5,
+            points: 30,
             weight: 40
         })
     ];
